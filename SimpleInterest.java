@@ -8,7 +8,6 @@
 package com.company;
 
 // import Scanner class
-
 import java.util.Scanner;
 
 // create top-level class
@@ -36,7 +35,7 @@ public class SimpleInterest {
         // calculate simple interest and assign value to variable simpleInterest
         double simpleInterest = p * r * t;
 
-        // print interest to be paid formatted to 2 decimal points with comma separators
+        // display interest to be paid formatted to 2 decimal points with comma separators
         System.out.printf("The interest amount is US$%,.2f", simpleInterest);
     }
 
